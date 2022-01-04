@@ -8,9 +8,8 @@
     "build/**/*"
   ],
   "scripts": {
-    "clean": "del ./build/*",
-    "build": "tsc",
-    "start": "npm run clean && npm run build"
+    "clean": "del build",
+    "build": "npm run clean && tsc"
   },
   "keywords": [],
   "author": "",
