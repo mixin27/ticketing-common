@@ -5,4 +5,6 @@ export enum Subjects {
   // Order
   OrderCreated = 'order:created',
   OrderCancelled = 'order:cancelled',
+  // Expiration
+  ExpirationComplete = 'expiration:complete',
 }
